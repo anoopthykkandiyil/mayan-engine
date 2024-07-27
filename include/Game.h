@@ -32,6 +32,12 @@ private:
     };
     Vector2 mPaddlePos = {30, 768/2};
     Vector2 mBallPos = {1024/2, 768/2};
+    Vector2 mBallVel = {-200.0f, -235.0f};
+    int paddleHeight = 100;
+    Uint32 mTicksCount;
+    int mPaddleDir=0;
+    double diff=0.0;
+
 };
 
 #endif // GAME_H
